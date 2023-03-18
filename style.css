@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.error-page > p {
+  text-align: center;
+}
+.error-page > p > i {
+  color: #a1a1a1;
+}
+
+.error-header {
+  color: #e41d36;
+}
+.error-image {
+  margin-bottom: 50px;
+  width: 300px;
+  height: 300px;
+}
+.container-error-payment {
+  margin-top: 100px;
+  margin: 10px auto 10px auto;
+  border-radius: 10px;
+  background-color: rgba(212, 112, 21, 0.17);
+  width: 100%;
+  margin: 0px auto;
+
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-case {
+  background-color: #fff6f7;
+}
+
+@media (max-width: 460px) {
+  body {
+    font-size: 14px;
+  }
+}
